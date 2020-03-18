@@ -23,4 +23,4 @@ Draw the samples, probability density contour and decision surface of two bi-var
 Run `run.py` for 2D or 3D visualization of bayes classifier.
 
 
-With special thanks to previous workd done by [Visualizing the bivariate Gaussian distribution](https://scipython.com/blog/visualizing-the-bivariate-gaussian-distribution/).
+With special thanks to previous work done by [Visualizing the bivariate Gaussian distribution](https://scipython.com/blog/visualizing-the-bivariate-gaussian-distribution/).
