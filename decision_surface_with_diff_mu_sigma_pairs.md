@@ -9,7 +9,7 @@ Sigma2 = np.array([[ 1. , 0], [0,  2.]])
 ```
 * the decision line, decision surface and corresponding 3D viewing
 
-| <img src="./results/hyperbola_line.png" width="300" height="240"> <img src="./results/hyperbola_surface.png" width="300" height="240"> <img src="./results/hyperbola_3d.png" width="300" height="240"> |
+| <img src="./results/hyperbola_line.png" width="260" height="240"> <img src="./results/hyperbola_surface.png" width="260" height="240"> <img src="./results/hyperbola_3d.png" width="260" height="240"> |
 |:--:|
 | *Hyperbola* |
 
