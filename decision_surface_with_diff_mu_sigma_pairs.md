@@ -9,7 +9,7 @@ Sigma2 = np.array([[ 1. , 0], [0,  2.]])
 ```
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![hyperbola_line](https://github.com/Tracyee/visualization-of-gaussian-bayes-classifier/blob/master/results/hyperbola_line.png =350x) ![hyperbola_surface](./results/hyperbola_surface.png =350x) ![hyperbola_3d](./results/hyperbola_3d.png =350x) |
+| ![hyperbola_line](./results/hyperbola_line.png) ![hyperbola_surface](./results/hyperbola_surface.png =350x) ![hyperbola_3d](./results/hyperbola_3d.png =350x) |
 |:--:|
 | *Hyperbola* |
 
