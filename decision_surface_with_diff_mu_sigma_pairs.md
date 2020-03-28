@@ -9,7 +9,7 @@ Sigma2 = np.array([[ 1. , 0], [0,  2.]])
 ```
 * the decision line, decision surface and corresponding 3D viewing
 
-| <img src="./results/hyperbola_line.png" width="280" height="240"> <img src="./results/hyperbola_surface.png" width="280" height="240"> <img src="./results/hyperbola_3d.png" width="280" height="240"> |
+| <img src="./results/hyperbola_line.png" width="280" height="280"> <img src="./results/hyperbola_surface.png" width="280" height="280"> <img src="./results/hyperbola_3d.png" width="280" height="280"> |
 |:--:|
 | *Hyperbola* |
 
@@ -25,7 +25,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| <img src="./results/parabola_line.png" width="350" height="270"> <img src="./results/parabola_surface.png" width="350" height="270"> <img src="./results/parabola_3d.png" width="350" height="270"> |
+| <img src="./results/parabola_line.png" width="280" height="280"> <img src="./results/parabola_surface.png" width="280" height="280"> <img src="./results/parabola_3d.png" width="280" height="280"> |
 |:--:|
 | *Parabola* |
 
@@ -41,7 +41,7 @@ Sigma2 = np.array([[ 2. , 1], [1,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![ellipse_line](./results/ellipse_line.png =350x) ![ellipse_surface](./results/ellipse_surface.png =350x) ![ellipse_3d](./results/ellipse_3d.png =350x) |
+| <img src="./results/ellipse_line.png" width="280" height="280"> <img src="./results/ellipse_surface.png" width="280" height="280"> <img src="./results/ellipse_3d.png" width="280" height="280"> |
 |:--:|
 | *Ellipse* |
 
@@ -58,7 +58,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![circle_line](./results/circle_line.png =350x) ![circle_surface](./results/circle_surface.png =350x) ![circle_3d](./results/circle_3d.png =350x) |
+| <img src="./results/circle_line.png" width="280" height="220"> <img src="./results/circle_surface.png" width="280" height="220"> <img src="./results/circle_3d.png" width="280" height="220"> |
 |:--:|
 | *Circle 1* |
 
@@ -73,7 +73,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![circle_line_2](./results/circle_line_2.png =350x) ![circle_surface_2](./results/circle_surface_2.png =350x) ![circle_3d_2](./results/circle_3d_2.png =350x) |
+| <img src="./results/circle_line_2.png" width="280" height="220"> <img src="./results/circle_surface_2.png" width="280" height="220"> <img src="./results/circle_3d_2.png" width="280" height="220"> |
 |:--:|
 | *Circle 2* |
 
@@ -89,7 +89,7 @@ Sigma2 = np.array([[ 1 , 0], [0,  1]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![line_line](./results/line_line.png =350x) ![line_surface](./results/line_surface.png =350x) ![line_3d](./results/line_3d.png =350x) |
+| <img src="./results/line_line.png" width="280" height="280"> <img src="./results/line_surface.png" width="280" height="280"> <img src="./results/line_3d.png" width="280" height="280"> |
 |:--:|
 | *Line 1* |
 
@@ -103,6 +103,6 @@ Sigma2 = np.array([[ 3 , 0], [0,  1]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![line_line_2](./results/line_line_2.png =350x) ![line_surface_2](./results/line_surface_2.png =350x) ![line_3d_2](./results/line_3d_2.png =350x) |
+| <img src="./results/line_line_2.png" width="280" height="280"> <img src="./results/line_surface_2.png" width="280" height="280"> <img src="./results/line_3d_2.png" width="280" height="280"> |
 |:--:|
 | *Line 2* |
