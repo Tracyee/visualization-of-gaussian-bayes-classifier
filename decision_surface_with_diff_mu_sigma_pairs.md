@@ -9,7 +9,7 @@ Sigma2 = np.array([[ 1. , 0], [0,  2.]])
 ```
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![hyperbola_line](./results/hyperbola_line.png) ![hyperbola_surface](./results/hyperbola_surface.png =350x) ![hyperbola_3d](./results/hyperbola_3d.png =350x) |
+| <img src="./results/hyperbola_line.png" width="350" height="270"> <img src="./results/hyperbola_surface.png" width="350" height="270"> <img src="./results/hyperbola_3d.png" width="350" height="270"> |
 |:--:|
 | *Hyperbola* |
 
@@ -25,7 +25,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![parabola_line](./results/parabola_line.png =350x) ![parabola_surface](./results/parabola_surface.png =350x) ![parabola_3d](./results/parabola_3d.png =350x) |
+| <img src="./results/parabola_line.png" width="350" height="270"> <img src="./results/parabola_surface.png" width="350" height="270"> <img src="./results/parabola_3d.png" width="350" height="270"> |
 |:--:|
 | *Parabola* |
 
