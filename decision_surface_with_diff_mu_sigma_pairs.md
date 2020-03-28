@@ -9,7 +9,7 @@ Sigma2 = np.array([[ 1. , 0], [0,  2.]])
 ```
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/hyperbola_line.png =350x)![](./results/hyperbola_surface.png =350x)![](./results/hyperbola_3d.png =350x) |
+| ![hyperbola_line](./results/hyperbola_line.png =350x) ![hyperbola_surface](./results/hyperbola_surface.png =350x) ![hyperbola_3d](./results/hyperbola_3d.png =350x) |
 |:--:|
 | *Hyperbola* |
 
@@ -25,7 +25,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/parabola_line.png =350x)![](./results/parabola_surface.png =350x)![](./results/parabola_3d.png =350x) |
+| ![parabola_line](./results/parabola_line.png =350x) ![parabola_surface](./results/parabola_surface.png =350x) ![parabola_3d](./results/parabola_3d.png =350x) |
 |:--:|
 | *Parabola* |
 
@@ -41,7 +41,7 @@ Sigma2 = np.array([[ 2. , 1], [1,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/ellipse_line.png =350x)![](./results/ellipse_surface.png =350x)![](./results/ellipse_3d.png =350x) |
+| ![ellipse_line](./results/ellipse_line.png =350x) ![ellipse_surface](./results/ellipse_surface.png =350x) ![ellipse_3d](./results/ellipse_3d.png =350x) |
 |:--:|
 | *Ellipse* |
 
@@ -58,7 +58,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/circle_line.png =350x)![](./results/circle_surface.png =350x)![](./results/circle_3d.png =350x) |
+| ![circle_line](./results/circle_line.png =350x) ![circle_surface](./results/circle_surface.png =350x) ![circle_3d](./results/circle_3d.png =350x) |
 |:--:|
 | *Circle 1* |
 
@@ -73,7 +73,7 @@ Sigma2 = np.array([[ 2. , 0], [0,  2.]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/circle_line_2.png =350x)![](./results/circle_surface_2.png =350x)![](./results/circle_3d_2.png =350x) |
+| ![circle_line_2](./results/circle_line_2.png =350x) ![circle_surface_2](./results/circle_surface_2.png =350x) ![circle_3d_2](./results/circle_3d_2.png =350x) |
 |:--:|
 | *Circle 2* |
 
@@ -89,7 +89,7 @@ Sigma2 = np.array([[ 1 , 0], [0,  1]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/line_line.png =350x)![](./results/line_surface.png =350x)![](./results/line_3d.png =350x) |
+| ![line_line](./results/line_line.png =350x) ![line_surface](./results/line_surface.png =350x) ![line_3d](./results/line_3d.png =350x) |
 |:--:|
 | *Line 1* |
 
@@ -103,6 +103,6 @@ Sigma2 = np.array([[ 3 , 0], [0,  1]])
 
 * the decision line, decision surface and corresponding 3D viewing
 
-| ![](./results/line_line_2.png =350x)![](./results/line_surface_2.png =350x)![](./results/line_3d_2.png =350x) |
+| ![line_line_2](./results/line_line_2.png =350x) ![line_surface_2](./results/line_surface_2.png =350x) ![line_3d_2](./results/line_3d_2.png =350x) |
 |:--:|
 | *Line 2* |
