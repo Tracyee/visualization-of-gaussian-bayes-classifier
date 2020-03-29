@@ -18,6 +18,25 @@ Draw the samples, probability density contour and decision surface of two bi-var
 
 * **要求**：画出样本集(注意区分)、等密度点轨迹以及分类面
 
+###  工具
+
+* 平台：Python、numpy
+
+* 画图：matplotlib
+
+  
+
+### 思路
+
+* 样本集（散点）： 
+  - 利用`numpy.random`方法中的多变量正态分布方法`(multivariate_normal(mean, cov, size)`)，生成样本集1（`x1`,`x2`）和样本集2（`x3`,`x4`）
+  - 利用`matplotlib.pyplot`中的`plot`方法，画出两类样本集的散点图
+* 等密度点轨迹以及分类面：
+  - 根据二维正态分布的数学定义，手动构造一个`BivariateGauss`类——调用其中的方法可返回给定均值和协方差矩阵的二维正态分布数学表达式（**重点**）
+  - 利用`matplotlib.pyplot`中的等高线（`contour`）方法，代入采样点和两类二维正态分布的数学表达式（`Z1`, `Z2`），画出两类分布的等密度点轨迹
+  - 同样利用等高线方法，代入采样点和两类分布的数学表达式之差`Z1 - Z2`，可视化`Z1 - Z2 = 0`的等高线，即可画出分类面
+  - 利用`matplotlib.pyplot`中的`plot_surface`方法，还可以实现两类二维正态分布的3D可视化
+
 
 ### 运行 Run
 Run `run.py` for 2D or 3D visualization of bayes classifier.
