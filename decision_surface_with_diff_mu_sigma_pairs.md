@@ -96,6 +96,21 @@ Sigma2 = np.array([[ 1 , 0], [0,  1]])
 * mean and covariance pairs for two distributions
 ```python
 mu1 = np.array([2., 2.])
+Sigma1 = np.array([[ 1 , 0], [0,  2]])
+mu2 = np.array([-2, -2.])
+Sigma2 = np.array([[ 1 , 0], [0,  2]])
+```
+
+* the decision line, decision surface and corresponding 3D viewing
+
+| <img src="./results/line_line_3.png" width="280" height="220"> <img src="./results/line_surface_3.png" width="280" height="220"> <img src="./results/line_3d_3.png" width="280" height="220"> |
+|:--:|
+| *Line 2* |
+
+
+* mean and covariance pairs for two distributions
+```python
+mu1 = np.array([2., 2.])
 Sigma1 = np.array([[ 1 , 0], [0,  3]])
 mu2 = np.array([-2, -2.])
 Sigma2 = np.array([[ 3 , 0], [0,  1]])
@@ -105,4 +120,4 @@ Sigma2 = np.array([[ 3 , 0], [0,  1]])
 
 | <img src="./results/line_line_2.png" width="280" height="220"> <img src="./results/line_surface_2.png" width="280" height="220"> <img src="./results/line_3d_2.png" width="280" height="220"> |
 |:--:|
-| *Line 2* |
+| *Line 3* |
