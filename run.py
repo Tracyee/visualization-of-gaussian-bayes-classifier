@@ -36,10 +36,10 @@ def main(X, mu, Sigma):
     ax.plot(x3, x4, '*',alpha=0.2)
 
     # The decision lines
-    # ax.contour(X1, X2, (Z2-Z1))
+    ax.contour(X1, X2, (Z2-Z1))
 
     # The decision surface
-    ax.contourf(X1, X2, (Z2-Z1), colors=('1', '1', '1', '1', '.2', '.2', '.2', '.2', '.2'))
+    # ax.contourf(X1, X2, (Z2-Z1), colors=('1', '1', '1', '1', '.2', '.2', '.2', '.2', '.2'))
 
     # The probability density contour
     draw_contour(X1, X2, Z1, ax)
@@ -49,7 +49,7 @@ def main(X, mu, Sigma):
     plt.axis('equal')
 
     plt.show()
-    fig.savefig('./results/line_surface_2.png', dpi=100)
+    fig.savefig('./results/line_line_3.png', dpi=100)
 
 def three_D(X, mu, Sigma):
     # Create a surface plot and projected filled contour plot under it.
@@ -90,9 +90,9 @@ if __name__ == "__main__":
 
     # Mean vector and covariance matrix for two classes
     mu1 = np.array([2., 2.])
-    Sigma1 = np.array([[ 1 , 0], [0,  3]])
+    Sigma1 = np.array([[ 1 , 0], [0,  2]])
     mu2 = np.array([-2, -2.])
-    Sigma2 = np.array([[ 3 , 0], [0,  1]])
+    Sigma2 = np.array([[ 1 , 0], [0,  2]])
 
     # pack the params
     X = [X1, X2]
