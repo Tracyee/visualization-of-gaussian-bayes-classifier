@@ -18,7 +18,9 @@ Draw the samples, probability density contour and decision surface of two bi-var
 
 * **要求**：画出样本集(注意区分)、等密度点轨迹以及分类面
 
-###  工具
+
+
+###  工具：
 
 * 平台：Python、numpy
 
@@ -26,7 +28,7 @@ Draw the samples, probability density contour and decision surface of two bi-var
 
   
 
-### 思路
+### 思路：
 
 * 样本集（散点）： 
   - 利用`numpy.random`方法中的多变量正态分布方法`(multivariate_normal(mean, cov, size)`)，生成样本集1（`x1`,`x2`）和样本集2（`x3`,`x4`）
@@ -41,7 +43,8 @@ Draw the samples, probability density contour and decision surface of two bi-var
 ### 运行 Run
 Run `run.py` for 2D or 3D visualization of bayes classifier.
 
+You may fine some test samples in [here](result/decision_surface_with_diff_mu_sigma_pairs.md).
+
 
 With special thanks to previous work done by [Visualizing the bivariate Gaussian distribution](https://scipython.com/blog/visualizing-the-bivariate-gaussian-distribution/).
 
-You may fine some test samples in [here](decision_surface_with_diff_mu_sigma_pairs.md).
