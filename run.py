@@ -49,7 +49,7 @@ def main(X, mu, Sigma):
     plt.axis('equal')
 
     plt.show()
-    fig.savefig('./results/line_line_3.png', dpi=100)
+    fig.savefig('./result/line_line_3.png', dpi=100)
 
 def three_D(X, mu, Sigma):
     # Create a surface plot and projected filled contour plot under it.
